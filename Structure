@@ -1,0 +1,26 @@
+UltimateClonerSafe/
+├── app/
+│   ├── src/main/
+│   │   ├── java/com/ultimatecloner/safe/
+│   │   │   ├── MainActivity.kt
+│   │   │   ├── CloneEngine/
+│   │   │   │   └── ContainerManager.kt (✅ SAFE - Sandbox method)
+│   │   │   ├── Spoofing/
+│   │   │   │   └── IdentityManager.kt (✅ SAFE - Runtime only)
+│   │   │   ├── Feedback/
+│   │   │   │   └── FeedbackManager.kt
+│   │   │   └── Utils/
+│   │   │       ├── EncryptionUtils.kt
+│   │   │       └── PolicyUtils.kt
+│   │   ├── res/
+│   │   │   ├── layout/
+│   │   │   │   ├── activity_main.xml
+│   │   │   │   ├── item_clone.xml
+│   │   │   │   └── dialog_privacy.xml
+│   │   │   └── xml/
+│   │   │       └── network_security_config.xml
+│   │   └── AndroidManifest.xml
+│   └── build.gradle.kts
+└── server/
+    ├── server.py
+    └── requirements.txt
